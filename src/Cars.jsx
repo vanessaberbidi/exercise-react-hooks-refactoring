@@ -18,7 +18,7 @@ const Cars = () => {
           alt="red car"
         />
         <button
-          onClick={() => moveCar('redCar', !red)}
+          onClick={() => moveCar('red', !red)}
           type="button"
         >
           Move
@@ -31,7 +31,7 @@ const Cars = () => {
           alt="blue car"
         />
         <button
-          onClick={() => moveCar('blueCar', !blue)}
+          onClick={() => moveCar('blue', !blue)}
           type="button"
         >
           Move
@@ -44,7 +44,7 @@ const Cars = () => {
           alt="yellow car"
         />
         <button
-          onClick={() => moveCar('yellowCar', !yellow)}
+          onClick={() => moveCar('yellow', !yellow)}
           type="button"
         >
           Move
